@@ -52,7 +52,7 @@
 					'items_wrap'      => '<ul id="%1$s" class="flex flex-row jusify-between flex-grow font-light">%3$s</ul>',
 				) );
 				?>
-				<button class="bg-yellow text-white p-3 text-display font-bold rounded-full">Get A Quote</button>
+				<button class="bg-yellow text-white p-3 text-display font-bold rounded-lg">Get A Quote</button>
 			</nav><!-- #site-navigation -->
 		</div>
 	</header><!-- #masthead -->
