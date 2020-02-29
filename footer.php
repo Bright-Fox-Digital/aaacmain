@@ -13,8 +13,8 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer bg-darkgray">
-		<div class="site-info section container">
+	<footer id="colophon" class="site-footer bg-darkgray p-20 text-lightgray">
+		<div class="site-info section container mx-auto">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'aaac' ) ); ?>">
 				<?php
 				/* translators: %s: CMS name, i.e. WordPress. */

@@ -14,50 +14,65 @@
 
 get_header();
 ?>
-	<div class="flex py-64">
-		<div id="primary" class="content-area">
+	<div class="flex py-40">
+		<div id="primary" class="content-area w-full">
 			<main id="main" class="site-main">
 	
 			<?php
-			if ( have_posts() ) :
-	
-				if ( is_home() && ! is_front_page() ) :
-					?>
-					<header>
-						<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
-					</header>
+	// 		if ( have_posts() ) :
+	// 
+	// 			if ( is_home() && ! is_front_page() ) :
+	// 				?>
+	<!-- // 				<header>
+	// 					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
+	// 				</header> -->
 					<?php
-				endif;
-	
-				/* Start the Loop */
-				while ( have_posts() ) :
-					the_post();
-	
-					/*
-					 * Include the Post-Type-specific template for the content.
-					 * If you want to override this in a child theme, then include a file
-					 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
-					 */
-					get_template_part( 'template-parts/content', get_post_type() );
-	
-				endwhile;
-	
-				the_posts_navigation();
-	
-			else :
-	
-				get_template_part( 'template-parts/content', 'none' );
-	
-			endif;
+	// 			endif;
+	// 
+	// 			/* Start the Loop */
+	// 			while ( have_posts() ) :
+	// 				the_post();
+	// 
+	// 				/*
+	// 				 * Include the Post-Type-specific template for the content.
+	// 				 * If you want to override this in a child theme, then include a file
+	// 				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
+	// 				 */
+	// 				get_template_part( 'template-parts/content', get_post_type() );
+	// 
+	// 			endwhile;
+	// 
+	// 			//the_posts_navigation();
+	// 
+	// 		else :
+	// 
+	// 			get_template_part( 'template-parts/content', 'none' );
+	// 
+	// 		endif;
 			?>
-	
+			<div class="pb-32 text-center text-4xl tracking-wide text-lightgray">
+				<?php echo get_field('main_title'); ?>
+			</div>
+			<?php
+			$args = array(
+				'post_type' => 'animals',
+				'p'			=> get_field('active_wildlife')
+			);
+			$active_wildlife = new WP_Query($args);
+			if($active_wildlife->have_posts()){
+				while($active_wildlife->have_posts()){
+					$active_wildlife->the_post();
+						get_template_part( 'template-parts/hero', 'animal' );
+				}
+			}
+			?>
+			
+			<div class="flex items-center justify-center p-32 w-full">
+				<button class="btn btn-outline btn-outline-gray rounded-lg">Check out our Animal Research</button>
+			</div>
+			
 			</main><!-- #main -->
 		</div><!-- #primary -->
-		<div class="column is-one-quarter">
-			<?php
-			get_sidebar();
-			?>
-		</div>
 	</div>
 <?php
 get_footer();

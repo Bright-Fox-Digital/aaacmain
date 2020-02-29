@@ -1,0 +1,53 @@
+.btn {
+  @apply p-3 font-display font-bold rounded-xl;
+}
+
+.btn-outline {
+	@apply border-2
+}
+
+.btn-outline-darkgray {
+	@apply border-darkgray
+}
+
+.btn-outline-gray {
+	@apply border-midgray text-midgray
+}
+
+.btn-outline-lightgray {
+	@apply border-lightgray
+}
+
+.btn-yellow {
+  @apply bg-yellow text-white;
+}
+
+.btn-yellow:hover {
+  @apply bg-yellow-darker;
+}
+
+.btn-white {
+	@apply bg-white text-darkgray;
+}
+
+input[type=text], input[type=search] {
+	@apply p-3 font-display rounded-xl bg-white w-full text-2xl text-darkgray;
+}
+
+input[type=search]::placeholder{
+	font-family: "Font Awesome 5 Free"; 
+	font-weight: 900; 
+}
+
+
+.menu-item {
+	@apply border-b-2 border-white pb-1 
+}
+
+.menu-item.current-menu-item, .menu-item:hover {
+	@apply border-yellow
+}
+
+.has-text-align-center {
+	@apply text-center
+}

@@ -4,4 +4,6 @@
 
 @import "node_modules/tailwindcss/components.css";
 
+@import "inc/css/templates.css";
+
 @import "node_modules/tailwindcss/utilities.css";

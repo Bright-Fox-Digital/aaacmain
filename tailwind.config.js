@@ -4,9 +4,16 @@ module.exports = {
       xl: '1260px'
     },
     extend: {
+      borderRadius: {
+        'xl':'1em'
+      },
       colors: {
-        yellow: '#FFA200',
+        yellow: {
+          default: '#FBA52C',
+          darker: '#E18F00'
+        },
         lightgray: '#6B6A68',
+        midgray: '#707070',
         darkgray: '#241F20'
       }
     },

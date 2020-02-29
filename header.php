@@ -27,7 +27,10 @@
 	<header id="masthead" class="site-header font-sans text-lightgray py-10">
 		<div class="container mx-auto flex flex-row justify-between items-center">
 			<div class="site-branding flex flex-row">
-				<?php the_custom_logo(); ?>
+				<?php 
+					$custom_logo_id = get_theme_mod( 'custom_logo' );
+					$image = wp_get_attachment_image_src( $custom_logo_id , 'full' ); ?>
+					<img class="h-50 w-100" src="<?php echo $image[0]; ?>" />
 				<div class="phone flex flex-row items-center ml-16 lg:flex hidden">
 					<span class="icon is-large -mt-6 mr-1">
 					  <i class="fas fa-phone-alt fa-2x"></i>
@@ -49,10 +52,10 @@
 				wp_nav_menu( array(
 					'theme_location' => 'menu-1',
 					'menu_id'        => 'primary-menu',
-					'items_wrap'      => '<ul id="%1$s" class="flex flex-row jusify-between flex-grow font-light">%3$s</ul>',
+					'items_wrap'      => '<ul id="%1$s" class="flex flex-row jusify-between hidden lg:flex flex-grow font-light">%3$s</ul>',
 				) );
 				?>
-				<button class="bg-yellow text-white p-3 text-display font-bold rounded-lg">Get A Quote</button>
+				<button class="btn btn-yellow lg:flex hidden">Get A Quote</button>
 			</nav><!-- #site-navigation -->
 		</div>
 	</header><!-- #masthead -->
@@ -64,13 +67,18 @@
 		</section>
 	<?php } else { ?>
 		<section class="h-screen" style="background: url('<?php echo get_the_post_thumbnail_url(); ?>') no-repeat scroll center; background-size: cover;">
-		    <div class="container text-white mx-auto py-64">
-		      <h1 class="text-5xl font-black font-display tracking-wider leading-tight">
-		        Uninvited Guest?
-		      </h1>
-		      <h2 class="text-4xl font-regular font-display">
-		        We'll see them out
-		      </h2>
+		    <div class="container text-white mx-auto py-32 lg:py-64">
+				<div class="w-2/5">
+			      <h1 class="text-5xl font-black font-display tracking-wider leading-tight">
+			        Uninvited Guest?
+			      </h1>
+			      <h2 class="text-4xl font-regular font-display">
+			        We'll see them out
+			      </h2>
+				  <p class="text-2xl font-regular font-display pt-8">Enter your ZIP Code to find a AAAC Wildlife Removal professional near you</p>
+				  <input type="search" class="mt-5 searchzip" placeholder="&#xF002;" />
+				  <button class="btn btn-yellow w-full mt-4 text-2xl">Search</button>
+				</div>
 		    </div>
 		</section>
 	<?php } ?>
