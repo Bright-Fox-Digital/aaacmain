@@ -82,4 +82,4 @@
 		    </div>
 		</section>
 	<?php } ?>
-	<div id="content" class="site-content container mx-auto">
+	<div id="content" class="site-content">
