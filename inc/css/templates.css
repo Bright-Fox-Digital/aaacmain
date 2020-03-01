@@ -51,3 +51,12 @@ input[type=search]::placeholder{
 .has-text-align-center {
 	@apply text-center
 }
+
+
+// fix star rating float
+ul.star-rating::after{
+	content: "" !important;
+	display: block !important;
+	clear: both !important;
+}
+

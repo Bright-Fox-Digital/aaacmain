@@ -721,7 +721,16 @@ input[type=search]::placeholder{
 
 .has-text-align-center {
   text-align: center
-}.sr-only {
+}
+
+// fix star rating float
+ul.star-rating::after{
+  content: "" !important;
+  display: block !important;
+  clear: both !important;
+}
+
+.sr-only {
   position: absolute;
   width: 1px;
   height: 1px;
