@@ -20,7 +20,9 @@ get_header();
 		<div class="grid grid-cols-3 gap-8 my-32">
 			<?php
 				$animal_args = array(
-					'post_type' => 'animals'
+					'post_type' => 'animals',
+					'orderby'	=> 'title',
+					'order'		=> 'asc'
 				);
 				$animals = new WP_Query($animal_args);
 				

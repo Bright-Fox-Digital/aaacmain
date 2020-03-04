@@ -10,10 +10,14 @@ module.exports = {
       'lg': '1024px',
       // => @media (min-width: 1024px) { ... }
 
-      'xl': '1260px',
+      'xl': '1280px',
       // => @media (min-width: 1280px) { ... }
       
-      'xxl': '1440px'
+      'xxl': '1440px',
+      
+      'xxxl': '1680px',
+      
+      'hd': '1920px'
     },
     extend: {
       borderRadius: {
@@ -51,13 +55,19 @@ module.exports = {
             maxWidth: '100%',
           },
           '@screen lg': {
-            maxWidth: '850px',
+            maxWidth: '800px',
           },
           '@screen xl': {
-            maxWidth: '1000px',
+            maxWidth: '900px',
           },
           '@screen xxl': {
             maxWidth: '1100px',
+          },
+          '@screen xxxl': {
+            maxWidth: '1260px',
+          },
+          '@screen hd': {
+            maxWidth: '1440px',
           },
         }
       })
