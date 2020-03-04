@@ -28,6 +28,7 @@ module.exports = {
           default: '#FBA52C',
           darker: '#E18F00'
         },
+        almostwhite: '#E5E4E0',
         lightgray: '#6B6A68',
         midgray: '#707070',
         darkgray: '#241F20'

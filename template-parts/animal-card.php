@@ -1,5 +1,14 @@
-<div class="bg-white rounded-lg overflow-hidden shadow-md">
-	<div class="h-48 overflow-hidden object-center">
+<?php
+	$animal_tax = get_the_terms(get_the_ID(), 'animal_type');
+	$atxarray = array();
+	foreach($animal_tax as $atx){
+		array_push($atxarray, $animal_tax[0]->term_id);
+	}
+	$animal_tax_list = json_encode($atxarray);
+?>
+
+<div class="bg-white rounded-lg overflow-hidden shadow-md animal-card" data-filter="<?php echo $animal_tax_list; ?>">
+	<div class="h-56 overflow-hidden object-center">
 		<?php echo get_the_post_thumbnail(); ?>
 	</div>
 	<div class="p-10 font-body text-lightgray pt-4">
