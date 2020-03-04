@@ -10,7 +10,10 @@
  */
 
 ?>
-
+	<?php 
+		if(!get_field('exclude_testimonials')){
+			get_template_part('template-parts/combo', 'bottom'); 
+		}?>
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer bg-darkgray p-20 text-lightgray">

@@ -4,7 +4,7 @@ Theme URI: http://underscores.me/
 Author: PixelDevs
 Author URI: https://pixeldevs.io
 Description: AAAC Parent Site
-Version: 1.0.2
+Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: aaac
@@ -631,9 +631,9 @@ video {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1440px) {
   .container {
-    max-width: 1280px
+    max-width: 1440px
   }
 }
 .btn {
@@ -721,16 +721,7 @@ input[type=search]::placeholder{
 
 .has-text-align-center {
   text-align: center
-}
-
-// fix star rating float
-ul.star-rating::after{
-  content: "" !important;
-  display: block !important;
-  clear: both !important;
-}
-
-.sr-only {
+}.sr-only {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -5237,7 +5228,7 @@ ul.star-rating::after{
 }
 
 .max-w-screen-xl {
-  max-width: 1280px
+  max-width: 1440px
 }
 
 .min-h-0 {
@@ -16850,7 +16841,7 @@ ul.star-rating::after{
   }
 
   .sm\:max-w-screen-xl {
-    max-width: 1280px
+    max-width: 1440px
   }
 
   .sm\:min-h-0 {
@@ -28464,7 +28455,7 @@ ul.star-rating::after{
   }
 
   .md\:max-w-screen-xl {
-    max-width: 1280px
+    max-width: 1440px
   }
 
   .md\:min-h-0 {
@@ -40078,7 +40069,7 @@ ul.star-rating::after{
   }
 
   .lg\:max-w-screen-xl {
-    max-width: 1280px
+    max-width: 1440px
   }
 
   .lg\:min-h-0 {
@@ -47184,7 +47175,7 @@ ul.star-rating::after{
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1440px) {
   .xl\:sr-only {
     position: absolute;
     width: 1px;
@@ -51692,7 +51683,7 @@ ul.star-rating::after{
   }
 
   .xl\:max-w-screen-xl {
-    max-width: 1280px
+    max-width: 1440px
   }
 
   .xl\:min-h-0 {
