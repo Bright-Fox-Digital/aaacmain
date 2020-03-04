@@ -10,8 +10,10 @@ module.exports = {
       'lg': '1024px',
       // => @media (min-width: 1024px) { ... }
 
-      'xl': '1440px',
+      'xl': '1260px',
       // => @media (min-width: 1280px) { ... }
+      
+      'xxl': '1440px'
     },
     extend: {
       borderRadius: {
@@ -34,5 +36,31 @@ module.exports = {
     },
   },
   variants: {},
-  plugins: [],
+  corePlugins: {
+    container: false
+  },
+  plugins: [
+    function ({ addComponents }) {
+      addComponents({
+        '.container': {
+          maxWidth: '100%',
+          '@screen sm': {
+            maxWidth: '100%',
+          },
+          '@screen md': {
+            maxWidth: '100%',
+          },
+          '@screen lg': {
+            maxWidth: '850px',
+          },
+          '@screen xl': {
+            maxWidth: '1000px',
+          },
+          '@screen xxl': {
+            maxWidth: '1100px',
+          },
+        }
+      })
+    }
+  ],
 }
