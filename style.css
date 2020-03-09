@@ -1163,6 +1163,10 @@ input[type=search]::placeholder{
   background-color: #241F20
 }
 
+.bg-bggray {
+  background-color: #FCFBFB
+}
+
 .hover\:bg-transparent:hover {
   background-color: transparent
 }
@@ -1523,6 +1527,10 @@ input[type=search]::placeholder{
   background-color: #241F20
 }
 
+.hover\:bg-bggray:hover {
+  background-color: #FCFBFB
+}
+
 .focus\:bg-transparent:focus {
   background-color: transparent
 }
@@ -1881,6 +1889,10 @@ input[type=search]::placeholder{
 
 .focus\:bg-darkgray:focus {
   background-color: #241F20
+}
+
+.focus\:bg-bggray:focus {
+  background-color: #FCFBFB
 }
 
 .bg-bottom {
@@ -2323,6 +2335,10 @@ input[type=search]::placeholder{
   border-color: #241F20
 }
 
+.border-bggray {
+  border-color: #FCFBFB
+}
+
 .hover\:border-transparent:hover {
   border-color: transparent
 }
@@ -2683,6 +2699,10 @@ input[type=search]::placeholder{
   border-color: #241F20
 }
 
+.hover\:border-bggray:hover {
+  border-color: #FCFBFB
+}
+
 .focus\:border-transparent:focus {
   border-color: transparent
 }
@@ -3041,6 +3061,10 @@ input[type=search]::placeholder{
 
 .focus\:border-darkgray:focus {
   border-color: #241F20
+}
+
+.focus\:border-bggray:focus {
+  border-color: #FCFBFB
 }
 
 .rounded-none {
@@ -7149,6 +7173,18 @@ input[type=search]::placeholder{
   color: #241F20
 }
 
+.placeholder-bggray:-ms-input-placeholder {
+  color: #FCFBFB
+}
+
+.placeholder-bggray::-ms-input-placeholder {
+  color: #FCFBFB
+}
+
+.placeholder-bggray::placeholder {
+  color: #FCFBFB
+}
+
 .focus\:placeholder-transparent:focus:-ms-input-placeholder {
   color: transparent
 }
@@ -8229,6 +8265,18 @@ input[type=search]::placeholder{
   color: #241F20
 }
 
+.focus\:placeholder-bggray:focus:-ms-input-placeholder {
+  color: #FCFBFB
+}
+
+.focus\:placeholder-bggray:focus::-ms-input-placeholder {
+  color: #FCFBFB
+}
+
+.focus\:placeholder-bggray:focus::placeholder {
+  color: #FCFBFB
+}
+
 .pointer-events-none {
   pointer-events: none
 }
@@ -8864,6 +8912,10 @@ input[type=search]::placeholder{
   color: #241F20
 }
 
+.text-bggray {
+  color: #FCFBFB
+}
+
 .hover\:text-transparent:hover {
   color: transparent
 }
@@ -9224,6 +9276,10 @@ input[type=search]::placeholder{
   color: #241F20
 }
 
+.hover\:text-bggray:hover {
+  color: #FCFBFB
+}
+
 .focus\:text-transparent:focus {
   color: transparent
 }
@@ -9582,6 +9638,10 @@ input[type=search]::placeholder{
 
 .focus\:text-darkgray:focus {
   color: #241F20
+}
+
+.focus\:text-bggray:focus {
+  color: #FCFBFB
 }
 
 .text-xs {
@@ -12848,6 +12908,10 @@ input[type=search]::placeholder{
     background-color: #241F20
   }
 
+  .sm\:bg-bggray {
+    background-color: #FCFBFB
+  }
+
   .sm\:hover\:bg-transparent:hover {
     background-color: transparent
   }
@@ -13208,6 +13272,10 @@ input[type=search]::placeholder{
     background-color: #241F20
   }
 
+  .sm\:hover\:bg-bggray:hover {
+    background-color: #FCFBFB
+  }
+
   .sm\:focus\:bg-transparent:focus {
     background-color: transparent
   }
@@ -13566,6 +13634,10 @@ input[type=search]::placeholder{
 
   .sm\:focus\:bg-darkgray:focus {
     background-color: #241F20
+  }
+
+  .sm\:focus\:bg-bggray:focus {
+    background-color: #FCFBFB
   }
 
   .sm\:bg-bottom {
@@ -14008,6 +14080,10 @@ input[type=search]::placeholder{
     border-color: #241F20
   }
 
+  .sm\:border-bggray {
+    border-color: #FCFBFB
+  }
+
   .sm\:hover\:border-transparent:hover {
     border-color: transparent
   }
@@ -14368,6 +14444,10 @@ input[type=search]::placeholder{
     border-color: #241F20
   }
 
+  .sm\:hover\:border-bggray:hover {
+    border-color: #FCFBFB
+  }
+
   .sm\:focus\:border-transparent:focus {
     border-color: transparent
   }
@@ -14726,6 +14806,10 @@ input[type=search]::placeholder{
 
   .sm\:focus\:border-darkgray:focus {
     border-color: #241F20
+  }
+
+  .sm\:focus\:border-bggray:focus {
+    border-color: #FCFBFB
   }
 
   .sm\:rounded-none {
@@ -18834,6 +18918,18 @@ input[type=search]::placeholder{
     color: #241F20
   }
 
+  .sm\:placeholder-bggray:-ms-input-placeholder {
+    color: #FCFBFB
+  }
+
+  .sm\:placeholder-bggray::-ms-input-placeholder {
+    color: #FCFBFB
+  }
+
+  .sm\:placeholder-bggray::placeholder {
+    color: #FCFBFB
+  }
+
   .sm\:focus\:placeholder-transparent:focus:-ms-input-placeholder {
     color: transparent
   }
@@ -19914,6 +20010,18 @@ input[type=search]::placeholder{
     color: #241F20
   }
 
+  .sm\:focus\:placeholder-bggray:focus:-ms-input-placeholder {
+    color: #FCFBFB
+  }
+
+  .sm\:focus\:placeholder-bggray:focus::-ms-input-placeholder {
+    color: #FCFBFB
+  }
+
+  .sm\:focus\:placeholder-bggray:focus::placeholder {
+    color: #FCFBFB
+  }
+
   .sm\:pointer-events-none {
     pointer-events: none
   }
@@ -20549,6 +20657,10 @@ input[type=search]::placeholder{
     color: #241F20
   }
 
+  .sm\:text-bggray {
+    color: #FCFBFB
+  }
+
   .sm\:hover\:text-transparent:hover {
     color: transparent
   }
@@ -20909,6 +21021,10 @@ input[type=search]::placeholder{
     color: #241F20
   }
 
+  .sm\:hover\:text-bggray:hover {
+    color: #FCFBFB
+  }
+
   .sm\:focus\:text-transparent:focus {
     color: transparent
   }
@@ -21267,6 +21383,10 @@ input[type=search]::placeholder{
 
   .sm\:focus\:text-darkgray:focus {
     color: #241F20
+  }
+
+  .sm\:focus\:text-bggray:focus {
+    color: #FCFBFB
   }
 
   .sm\:text-xs {
@@ -24534,6 +24654,10 @@ input[type=search]::placeholder{
     background-color: #241F20
   }
 
+  .md\:bg-bggray {
+    background-color: #FCFBFB
+  }
+
   .md\:hover\:bg-transparent:hover {
     background-color: transparent
   }
@@ -24894,6 +25018,10 @@ input[type=search]::placeholder{
     background-color: #241F20
   }
 
+  .md\:hover\:bg-bggray:hover {
+    background-color: #FCFBFB
+  }
+
   .md\:focus\:bg-transparent:focus {
     background-color: transparent
   }
@@ -25252,6 +25380,10 @@ input[type=search]::placeholder{
 
   .md\:focus\:bg-darkgray:focus {
     background-color: #241F20
+  }
+
+  .md\:focus\:bg-bggray:focus {
+    background-color: #FCFBFB
   }
 
   .md\:bg-bottom {
@@ -25694,6 +25826,10 @@ input[type=search]::placeholder{
     border-color: #241F20
   }
 
+  .md\:border-bggray {
+    border-color: #FCFBFB
+  }
+
   .md\:hover\:border-transparent:hover {
     border-color: transparent
   }
@@ -26054,6 +26190,10 @@ input[type=search]::placeholder{
     border-color: #241F20
   }
 
+  .md\:hover\:border-bggray:hover {
+    border-color: #FCFBFB
+  }
+
   .md\:focus\:border-transparent:focus {
     border-color: transparent
   }
@@ -26412,6 +26552,10 @@ input[type=search]::placeholder{
 
   .md\:focus\:border-darkgray:focus {
     border-color: #241F20
+  }
+
+  .md\:focus\:border-bggray:focus {
+    border-color: #FCFBFB
   }
 
   .md\:rounded-none {
@@ -30520,6 +30664,18 @@ input[type=search]::placeholder{
     color: #241F20
   }
 
+  .md\:placeholder-bggray:-ms-input-placeholder {
+    color: #FCFBFB
+  }
+
+  .md\:placeholder-bggray::-ms-input-placeholder {
+    color: #FCFBFB
+  }
+
+  .md\:placeholder-bggray::placeholder {
+    color: #FCFBFB
+  }
+
   .md\:focus\:placeholder-transparent:focus:-ms-input-placeholder {
     color: transparent
   }
@@ -31600,6 +31756,18 @@ input[type=search]::placeholder{
     color: #241F20
   }
 
+  .md\:focus\:placeholder-bggray:focus:-ms-input-placeholder {
+    color: #FCFBFB
+  }
+
+  .md\:focus\:placeholder-bggray:focus::-ms-input-placeholder {
+    color: #FCFBFB
+  }
+
+  .md\:focus\:placeholder-bggray:focus::placeholder {
+    color: #FCFBFB
+  }
+
   .md\:pointer-events-none {
     pointer-events: none
   }
@@ -32235,6 +32403,10 @@ input[type=search]::placeholder{
     color: #241F20
   }
 
+  .md\:text-bggray {
+    color: #FCFBFB
+  }
+
   .md\:hover\:text-transparent:hover {
     color: transparent
   }
@@ -32595,6 +32767,10 @@ input[type=search]::placeholder{
     color: #241F20
   }
 
+  .md\:hover\:text-bggray:hover {
+    color: #FCFBFB
+  }
+
   .md\:focus\:text-transparent:focus {
     color: transparent
   }
@@ -32953,6 +33129,10 @@ input[type=search]::placeholder{
 
   .md\:focus\:text-darkgray:focus {
     color: #241F20
+  }
+
+  .md\:focus\:text-bggray:focus {
+    color: #FCFBFB
   }
 
   .md\:text-xs {
@@ -36220,6 +36400,10 @@ input[type=search]::placeholder{
     background-color: #241F20
   }
 
+  .lg\:bg-bggray {
+    background-color: #FCFBFB
+  }
+
   .lg\:hover\:bg-transparent:hover {
     background-color: transparent
   }
@@ -36580,6 +36764,10 @@ input[type=search]::placeholder{
     background-color: #241F20
   }
 
+  .lg\:hover\:bg-bggray:hover {
+    background-color: #FCFBFB
+  }
+
   .lg\:focus\:bg-transparent:focus {
     background-color: transparent
   }
@@ -36938,6 +37126,10 @@ input[type=search]::placeholder{
 
   .lg\:focus\:bg-darkgray:focus {
     background-color: #241F20
+  }
+
+  .lg\:focus\:bg-bggray:focus {
+    background-color: #FCFBFB
   }
 
   .lg\:bg-bottom {
@@ -37380,6 +37572,10 @@ input[type=search]::placeholder{
     border-color: #241F20
   }
 
+  .lg\:border-bggray {
+    border-color: #FCFBFB
+  }
+
   .lg\:hover\:border-transparent:hover {
     border-color: transparent
   }
@@ -37740,6 +37936,10 @@ input[type=search]::placeholder{
     border-color: #241F20
   }
 
+  .lg\:hover\:border-bggray:hover {
+    border-color: #FCFBFB
+  }
+
   .lg\:focus\:border-transparent:focus {
     border-color: transparent
   }
@@ -38098,6 +38298,10 @@ input[type=search]::placeholder{
 
   .lg\:focus\:border-darkgray:focus {
     border-color: #241F20
+  }
+
+  .lg\:focus\:border-bggray:focus {
+    border-color: #FCFBFB
   }
 
   .lg\:rounded-none {
@@ -42206,6 +42410,18 @@ input[type=search]::placeholder{
     color: #241F20
   }
 
+  .lg\:placeholder-bggray:-ms-input-placeholder {
+    color: #FCFBFB
+  }
+
+  .lg\:placeholder-bggray::-ms-input-placeholder {
+    color: #FCFBFB
+  }
+
+  .lg\:placeholder-bggray::placeholder {
+    color: #FCFBFB
+  }
+
   .lg\:focus\:placeholder-transparent:focus:-ms-input-placeholder {
     color: transparent
   }
@@ -43286,6 +43502,18 @@ input[type=search]::placeholder{
     color: #241F20
   }
 
+  .lg\:focus\:placeholder-bggray:focus:-ms-input-placeholder {
+    color: #FCFBFB
+  }
+
+  .lg\:focus\:placeholder-bggray:focus::-ms-input-placeholder {
+    color: #FCFBFB
+  }
+
+  .lg\:focus\:placeholder-bggray:focus::placeholder {
+    color: #FCFBFB
+  }
+
   .lg\:pointer-events-none {
     pointer-events: none
   }
@@ -43921,6 +44149,10 @@ input[type=search]::placeholder{
     color: #241F20
   }
 
+  .lg\:text-bggray {
+    color: #FCFBFB
+  }
+
   .lg\:hover\:text-transparent:hover {
     color: transparent
   }
@@ -44281,6 +44513,10 @@ input[type=search]::placeholder{
     color: #241F20
   }
 
+  .lg\:hover\:text-bggray:hover {
+    color: #FCFBFB
+  }
+
   .lg\:focus\:text-transparent:focus {
     color: transparent
   }
@@ -44639,6 +44875,10 @@ input[type=search]::placeholder{
 
   .lg\:focus\:text-darkgray:focus {
     color: #241F20
+  }
+
+  .lg\:focus\:text-bggray:focus {
+    color: #FCFBFB
   }
 
   .lg\:text-xs {
@@ -47906,6 +48146,10 @@ input[type=search]::placeholder{
     background-color: #241F20
   }
 
+  .xl\:bg-bggray {
+    background-color: #FCFBFB
+  }
+
   .xl\:hover\:bg-transparent:hover {
     background-color: transparent
   }
@@ -48266,6 +48510,10 @@ input[type=search]::placeholder{
     background-color: #241F20
   }
 
+  .xl\:hover\:bg-bggray:hover {
+    background-color: #FCFBFB
+  }
+
   .xl\:focus\:bg-transparent:focus {
     background-color: transparent
   }
@@ -48624,6 +48872,10 @@ input[type=search]::placeholder{
 
   .xl\:focus\:bg-darkgray:focus {
     background-color: #241F20
+  }
+
+  .xl\:focus\:bg-bggray:focus {
+    background-color: #FCFBFB
   }
 
   .xl\:bg-bottom {
@@ -49066,6 +49318,10 @@ input[type=search]::placeholder{
     border-color: #241F20
   }
 
+  .xl\:border-bggray {
+    border-color: #FCFBFB
+  }
+
   .xl\:hover\:border-transparent:hover {
     border-color: transparent
   }
@@ -49426,6 +49682,10 @@ input[type=search]::placeholder{
     border-color: #241F20
   }
 
+  .xl\:hover\:border-bggray:hover {
+    border-color: #FCFBFB
+  }
+
   .xl\:focus\:border-transparent:focus {
     border-color: transparent
   }
@@ -49784,6 +50044,10 @@ input[type=search]::placeholder{
 
   .xl\:focus\:border-darkgray:focus {
     border-color: #241F20
+  }
+
+  .xl\:focus\:border-bggray:focus {
+    border-color: #FCFBFB
   }
 
   .xl\:rounded-none {
@@ -53892,6 +54156,18 @@ input[type=search]::placeholder{
     color: #241F20
   }
 
+  .xl\:placeholder-bggray:-ms-input-placeholder {
+    color: #FCFBFB
+  }
+
+  .xl\:placeholder-bggray::-ms-input-placeholder {
+    color: #FCFBFB
+  }
+
+  .xl\:placeholder-bggray::placeholder {
+    color: #FCFBFB
+  }
+
   .xl\:focus\:placeholder-transparent:focus:-ms-input-placeholder {
     color: transparent
   }
@@ -54972,6 +55248,18 @@ input[type=search]::placeholder{
     color: #241F20
   }
 
+  .xl\:focus\:placeholder-bggray:focus:-ms-input-placeholder {
+    color: #FCFBFB
+  }
+
+  .xl\:focus\:placeholder-bggray:focus::-ms-input-placeholder {
+    color: #FCFBFB
+  }
+
+  .xl\:focus\:placeholder-bggray:focus::placeholder {
+    color: #FCFBFB
+  }
+
   .xl\:pointer-events-none {
     pointer-events: none
   }
@@ -55607,6 +55895,10 @@ input[type=search]::placeholder{
     color: #241F20
   }
 
+  .xl\:text-bggray {
+    color: #FCFBFB
+  }
+
   .xl\:hover\:text-transparent:hover {
     color: transparent
   }
@@ -55967,6 +56259,10 @@ input[type=search]::placeholder{
     color: #241F20
   }
 
+  .xl\:hover\:text-bggray:hover {
+    color: #FCFBFB
+  }
+
   .xl\:focus\:text-transparent:focus {
     color: transparent
   }
@@ -56325,6 +56621,10 @@ input[type=search]::placeholder{
 
   .xl\:focus\:text-darkgray:focus {
     color: #241F20
+  }
+
+  .xl\:focus\:text-bggray:focus {
+    color: #FCFBFB
   }
 
   .xl\:text-xs {
@@ -59592,6 +59892,10 @@ input[type=search]::placeholder{
     background-color: #241F20
   }
 
+  .xxl\:bg-bggray {
+    background-color: #FCFBFB
+  }
+
   .xxl\:hover\:bg-transparent:hover {
     background-color: transparent
   }
@@ -59952,6 +60256,10 @@ input[type=search]::placeholder{
     background-color: #241F20
   }
 
+  .xxl\:hover\:bg-bggray:hover {
+    background-color: #FCFBFB
+  }
+
   .xxl\:focus\:bg-transparent:focus {
     background-color: transparent
   }
@@ -60310,6 +60618,10 @@ input[type=search]::placeholder{
 
   .xxl\:focus\:bg-darkgray:focus {
     background-color: #241F20
+  }
+
+  .xxl\:focus\:bg-bggray:focus {
+    background-color: #FCFBFB
   }
 
   .xxl\:bg-bottom {
@@ -60752,6 +61064,10 @@ input[type=search]::placeholder{
     border-color: #241F20
   }
 
+  .xxl\:border-bggray {
+    border-color: #FCFBFB
+  }
+
   .xxl\:hover\:border-transparent:hover {
     border-color: transparent
   }
@@ -61112,6 +61428,10 @@ input[type=search]::placeholder{
     border-color: #241F20
   }
 
+  .xxl\:hover\:border-bggray:hover {
+    border-color: #FCFBFB
+  }
+
   .xxl\:focus\:border-transparent:focus {
     border-color: transparent
   }
@@ -61470,6 +61790,10 @@ input[type=search]::placeholder{
 
   .xxl\:focus\:border-darkgray:focus {
     border-color: #241F20
+  }
+
+  .xxl\:focus\:border-bggray:focus {
+    border-color: #FCFBFB
   }
 
   .xxl\:rounded-none {
@@ -65578,6 +65902,18 @@ input[type=search]::placeholder{
     color: #241F20
   }
 
+  .xxl\:placeholder-bggray:-ms-input-placeholder {
+    color: #FCFBFB
+  }
+
+  .xxl\:placeholder-bggray::-ms-input-placeholder {
+    color: #FCFBFB
+  }
+
+  .xxl\:placeholder-bggray::placeholder {
+    color: #FCFBFB
+  }
+
   .xxl\:focus\:placeholder-transparent:focus:-ms-input-placeholder {
     color: transparent
   }
@@ -66658,6 +66994,18 @@ input[type=search]::placeholder{
     color: #241F20
   }
 
+  .xxl\:focus\:placeholder-bggray:focus:-ms-input-placeholder {
+    color: #FCFBFB
+  }
+
+  .xxl\:focus\:placeholder-bggray:focus::-ms-input-placeholder {
+    color: #FCFBFB
+  }
+
+  .xxl\:focus\:placeholder-bggray:focus::placeholder {
+    color: #FCFBFB
+  }
+
   .xxl\:pointer-events-none {
     pointer-events: none
   }
@@ -67293,6 +67641,10 @@ input[type=search]::placeholder{
     color: #241F20
   }
 
+  .xxl\:text-bggray {
+    color: #FCFBFB
+  }
+
   .xxl\:hover\:text-transparent:hover {
     color: transparent
   }
@@ -67653,6 +68005,10 @@ input[type=search]::placeholder{
     color: #241F20
   }
 
+  .xxl\:hover\:text-bggray:hover {
+    color: #FCFBFB
+  }
+
   .xxl\:focus\:text-transparent:focus {
     color: transparent
   }
@@ -68011,6 +68367,10 @@ input[type=search]::placeholder{
 
   .xxl\:focus\:text-darkgray:focus {
     color: #241F20
+  }
+
+  .xxl\:focus\:text-bggray:focus {
+    color: #FCFBFB
   }
 
   .xxl\:text-xs {
@@ -71278,6 +71638,10 @@ input[type=search]::placeholder{
     background-color: #241F20
   }
 
+  .xxxl\:bg-bggray {
+    background-color: #FCFBFB
+  }
+
   .xxxl\:hover\:bg-transparent:hover {
     background-color: transparent
   }
@@ -71638,6 +72002,10 @@ input[type=search]::placeholder{
     background-color: #241F20
   }
 
+  .xxxl\:hover\:bg-bggray:hover {
+    background-color: #FCFBFB
+  }
+
   .xxxl\:focus\:bg-transparent:focus {
     background-color: transparent
   }
@@ -71996,6 +72364,10 @@ input[type=search]::placeholder{
 
   .xxxl\:focus\:bg-darkgray:focus {
     background-color: #241F20
+  }
+
+  .xxxl\:focus\:bg-bggray:focus {
+    background-color: #FCFBFB
   }
 
   .xxxl\:bg-bottom {
@@ -72438,6 +72810,10 @@ input[type=search]::placeholder{
     border-color: #241F20
   }
 
+  .xxxl\:border-bggray {
+    border-color: #FCFBFB
+  }
+
   .xxxl\:hover\:border-transparent:hover {
     border-color: transparent
   }
@@ -72798,6 +73174,10 @@ input[type=search]::placeholder{
     border-color: #241F20
   }
 
+  .xxxl\:hover\:border-bggray:hover {
+    border-color: #FCFBFB
+  }
+
   .xxxl\:focus\:border-transparent:focus {
     border-color: transparent
   }
@@ -73156,6 +73536,10 @@ input[type=search]::placeholder{
 
   .xxxl\:focus\:border-darkgray:focus {
     border-color: #241F20
+  }
+
+  .xxxl\:focus\:border-bggray:focus {
+    border-color: #FCFBFB
   }
 
   .xxxl\:rounded-none {
@@ -77264,6 +77648,18 @@ input[type=search]::placeholder{
     color: #241F20
   }
 
+  .xxxl\:placeholder-bggray:-ms-input-placeholder {
+    color: #FCFBFB
+  }
+
+  .xxxl\:placeholder-bggray::-ms-input-placeholder {
+    color: #FCFBFB
+  }
+
+  .xxxl\:placeholder-bggray::placeholder {
+    color: #FCFBFB
+  }
+
   .xxxl\:focus\:placeholder-transparent:focus:-ms-input-placeholder {
     color: transparent
   }
@@ -78344,6 +78740,18 @@ input[type=search]::placeholder{
     color: #241F20
   }
 
+  .xxxl\:focus\:placeholder-bggray:focus:-ms-input-placeholder {
+    color: #FCFBFB
+  }
+
+  .xxxl\:focus\:placeholder-bggray:focus::-ms-input-placeholder {
+    color: #FCFBFB
+  }
+
+  .xxxl\:focus\:placeholder-bggray:focus::placeholder {
+    color: #FCFBFB
+  }
+
   .xxxl\:pointer-events-none {
     pointer-events: none
   }
@@ -78979,6 +79387,10 @@ input[type=search]::placeholder{
     color: #241F20
   }
 
+  .xxxl\:text-bggray {
+    color: #FCFBFB
+  }
+
   .xxxl\:hover\:text-transparent:hover {
     color: transparent
   }
@@ -79339,6 +79751,10 @@ input[type=search]::placeholder{
     color: #241F20
   }
 
+  .xxxl\:hover\:text-bggray:hover {
+    color: #FCFBFB
+  }
+
   .xxxl\:focus\:text-transparent:focus {
     color: transparent
   }
@@ -79697,6 +80113,10 @@ input[type=search]::placeholder{
 
   .xxxl\:focus\:text-darkgray:focus {
     color: #241F20
+  }
+
+  .xxxl\:focus\:text-bggray:focus {
+    color: #FCFBFB
   }
 
   .xxxl\:text-xs {
@@ -82964,6 +83384,10 @@ input[type=search]::placeholder{
     background-color: #241F20
   }
 
+  .hd\:bg-bggray {
+    background-color: #FCFBFB
+  }
+
   .hd\:hover\:bg-transparent:hover {
     background-color: transparent
   }
@@ -83324,6 +83748,10 @@ input[type=search]::placeholder{
     background-color: #241F20
   }
 
+  .hd\:hover\:bg-bggray:hover {
+    background-color: #FCFBFB
+  }
+
   .hd\:focus\:bg-transparent:focus {
     background-color: transparent
   }
@@ -83682,6 +84110,10 @@ input[type=search]::placeholder{
 
   .hd\:focus\:bg-darkgray:focus {
     background-color: #241F20
+  }
+
+  .hd\:focus\:bg-bggray:focus {
+    background-color: #FCFBFB
   }
 
   .hd\:bg-bottom {
@@ -84124,6 +84556,10 @@ input[type=search]::placeholder{
     border-color: #241F20
   }
 
+  .hd\:border-bggray {
+    border-color: #FCFBFB
+  }
+
   .hd\:hover\:border-transparent:hover {
     border-color: transparent
   }
@@ -84484,6 +84920,10 @@ input[type=search]::placeholder{
     border-color: #241F20
   }
 
+  .hd\:hover\:border-bggray:hover {
+    border-color: #FCFBFB
+  }
+
   .hd\:focus\:border-transparent:focus {
     border-color: transparent
   }
@@ -84842,6 +85282,10 @@ input[type=search]::placeholder{
 
   .hd\:focus\:border-darkgray:focus {
     border-color: #241F20
+  }
+
+  .hd\:focus\:border-bggray:focus {
+    border-color: #FCFBFB
   }
 
   .hd\:rounded-none {
@@ -88950,6 +89394,18 @@ input[type=search]::placeholder{
     color: #241F20
   }
 
+  .hd\:placeholder-bggray:-ms-input-placeholder {
+    color: #FCFBFB
+  }
+
+  .hd\:placeholder-bggray::-ms-input-placeholder {
+    color: #FCFBFB
+  }
+
+  .hd\:placeholder-bggray::placeholder {
+    color: #FCFBFB
+  }
+
   .hd\:focus\:placeholder-transparent:focus:-ms-input-placeholder {
     color: transparent
   }
@@ -90030,6 +90486,18 @@ input[type=search]::placeholder{
     color: #241F20
   }
 
+  .hd\:focus\:placeholder-bggray:focus:-ms-input-placeholder {
+    color: #FCFBFB
+  }
+
+  .hd\:focus\:placeholder-bggray:focus::-ms-input-placeholder {
+    color: #FCFBFB
+  }
+
+  .hd\:focus\:placeholder-bggray:focus::placeholder {
+    color: #FCFBFB
+  }
+
   .hd\:pointer-events-none {
     pointer-events: none
   }
@@ -90665,6 +91133,10 @@ input[type=search]::placeholder{
     color: #241F20
   }
 
+  .hd\:text-bggray {
+    color: #FCFBFB
+  }
+
   .hd\:hover\:text-transparent:hover {
     color: transparent
   }
@@ -91025,6 +91497,10 @@ input[type=search]::placeholder{
     color: #241F20
   }
 
+  .hd\:hover\:text-bggray:hover {
+    color: #FCFBFB
+  }
+
   .hd\:focus\:text-transparent:focus {
     color: transparent
   }
@@ -91383,6 +91859,10 @@ input[type=search]::placeholder{
 
   .hd\:focus\:text-darkgray:focus {
     color: #241F20
+  }
+
+  .hd\:focus\:text-bggray:focus {
+    color: #FCFBFB
   }
 
   .hd\:text-xs {

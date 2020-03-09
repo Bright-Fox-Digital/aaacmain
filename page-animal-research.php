@@ -35,7 +35,7 @@ get_header();
 			}
 			?>
 		</div>
-		<div class="grid grid-cols-3 gap-8 my-32">
+		<div class="grid grid-cols-2 lg:grid-cols-3 gap-8 my-32">
 			<?php
 				$animal_args = array(
 					'post_type' => 'animals',
