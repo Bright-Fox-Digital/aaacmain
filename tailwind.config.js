@@ -32,7 +32,8 @@ module.exports = {
         lightgray: '#6B6A68',
         midgray: '#707070',
         darkgray: '#241F20',
-        bggray: '#FCFBFB'
+        bggray: '#FCFBFB',
+        headinggray: '#F5F5F5'
       }
     },
     fontFamily: {

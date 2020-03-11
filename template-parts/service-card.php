@@ -1,6 +1,7 @@
 <?php
-	$animal_tax = get_the_terms(get_the_ID(), 'animal_type');
+	$animal_tax = get_the_terms(get_the_ID(), 'service_type');
 	$atxarray = array();
+	$i = 0;
 	foreach($animal_tax as $atx){
 		array_push($atxarray, $atx->term_id);
 	}

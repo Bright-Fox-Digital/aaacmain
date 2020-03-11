@@ -14,8 +14,8 @@
 
 get_header();
 ?>
-<div class="columns">
-	<div id="primary" class="content-area is-three-quarters column">
+<div class="container mx-auto flex">
+	<div id="primary" class="w-3/4">
 		<main id="main" class="site-main">
 
 		<?php
@@ -34,7 +34,7 @@ get_header();
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-	<div class="column is-one-quarter">
+	<div class="w-1/4">
 		<?php
 		get_sidebar();
 		?>

@@ -14,7 +14,7 @@
 
 get_header();
 ?>
-<div class="columns mt-16">
+<div class="mt-16">
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main container mx-auto">
 		<h1 class="font-display text-4xl font-bold text-lightgray text-center mb-10"><?php the_title(); ?></h1>
@@ -22,7 +22,7 @@ get_header();
 		<div class="w-8/12 flex flex-row justify-between mx-auto relative mt-16">
 			<div class="h-px bg-almostwhite absolute mt-6 w-11/12"></div>
 			<?php
-			$taxonomy = 'animal_type';
+			$taxonomy = 'service_type';
 			$taxonomy_terms = get_terms( $taxonomy, array(
 			    'hide_empty' => 0,
 			) );
@@ -38,7 +38,7 @@ get_header();
 		<div class="grid grid-cols-2 lg:grid-cols-3 gap-8 my-32">
 			<?php
 				$animal_args = array(
-					'post_type' => 'animals',
+					'post_type' => 'services',
 					'orderby'	=> 'title',
 					'order'		=> 'asc'
 				);
@@ -47,7 +47,7 @@ get_header();
 				if($animals->have_posts()){
 					while($animals->have_posts()){
 						$animals->the_post();
-							get_template_part('template-parts/animal', 'card');
+							get_template_part('template-parts/service', 'card');
 					}
 					wp_reset_query();
 				}

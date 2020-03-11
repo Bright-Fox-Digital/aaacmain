@@ -4,7 +4,8 @@
 			let animalId = $(this).data('id');
 			$('.animal-card').each(function(){
 				let card = $(this);
-				let dataID = $(this).data('filter');
+				let dataID = card.data('filter');
+				
 				let flag = $.inArray(animalId, dataID);
 				if(!flag){
 					card.show(200);

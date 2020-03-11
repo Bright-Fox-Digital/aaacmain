@@ -60,8 +60,8 @@
 		</div>
 	</header><!-- #masthead -->
 	<?php if(!is_front_page()){ ?>
-		<section class="has-background-light p-1">
-			<div class="container is-italic has-text-grey-light">
+		<section class="bg-headinggray p-6 shadow-inner">
+			<div class="container mx-auto is-italic has-text-grey-light">
 				<?php echo do_shortcode('[flexy_breadcrumb]'); ?>
 			</div>
 		</section>
@@ -82,4 +82,4 @@
 		    </div>
 		</section>
 	<?php } ?>
-	<div id="content" class="site-content">
+		<div id="content" class="site-content">
