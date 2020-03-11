@@ -14,7 +14,7 @@
 
 get_header();
 ?>
-<div class="container mx-auto">
+<div class="container mx-auto mt-16">
 	<div id="primary" class="content-area w-2/3">
 		<main id="main" class="site-main">
 
