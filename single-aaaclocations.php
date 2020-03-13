@@ -14,12 +14,12 @@ get_header();
 		<div class="text-center">
 			<h1 class="font-display text-5xl font-bold text-lightgray py-10"><?php echo get_the_title(); ?></h1>
 		</div>
-		<div class="flex justify-between">
-			<div id="primary" class="content-area w-2/3">
+		<div class="flex justify-between flex-col lg:flex-row">
+			<div id="primary" class="content-area lg:w-2/3 w-full px-5 lg:px-0">
 				<main id="main" class="site-main">
 				<?php if( have_rows('locations', 'options') ): ?>
 	
-				<div class="grid grid-cols-2 gap-8">
+				<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
 					<?php while( have_rows('locations', 'options') ): the_row(); 
 						$state = get_sub_field('state_name');
 						if(strtolower($state) == strtolower(get_the_title())){
@@ -39,7 +39,7 @@ get_header();
 				<?php endif; ?>
 				</main><!-- #main -->
 			</div><!-- #primary -->
-			<div class="w-1/3 pl-8">
+			<div class="w-full lg:w-1/3 px-5 mt-5 lg:mt-0 lg:pl-8">
 				<div class="bg-white rounded-lg overflow-hidden shadow-md animal-card" data-filter="<?php echo $animal_tax_list; ?>">
 					<div class="p-10 font-body text-lightgray pt-4">
 						<h1 class="font-display text-3xl font-bold mb-4 text-center">

@@ -66,9 +66,9 @@
 			</div>
 		</section>
 	<?php } else { ?>
-		<section class="h-screen" style="background: url('<?php echo get_the_post_thumbnail_url(); ?>') no-repeat scroll center; background-size: cover;">
-		    <div class="container text-white mx-auto py-32 lg:py-64">
-				<div class="w-2/5">
+		<section class="h-auto lg:h-screen" style="background: url('<?php echo get_the_post_thumbnail_url(); ?>') no-repeat scroll center; background-size: cover;">
+		    <div class="container text-white mx-auto py-32 px-5 lg:px-0 lg:py-64">
+				<div class="w-full lg:w-2/5">
 			      <h1 class="text-5xl font-black font-display tracking-wider leading-tight">
 			        Uninvited Guest?
 			      </h1>

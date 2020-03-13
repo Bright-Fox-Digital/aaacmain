@@ -52,22 +52,22 @@ module.exports = {
         '.container': {
           maxWidth: '100%',
           '@screen sm': {
-            maxWidth: '100%',
+            maxWidth: '491px',
           },
           '@screen md': {
-            maxWidth: '100%',
+            maxWidth: '617px',
           },
           '@screen lg': {
-            maxWidth: '800px',
+            maxWidth: '872px',
           },
           '@screen xl': {
-            maxWidth: '900px',
+            maxWidth: '969px',
           },
           '@screen xxl': {
-            maxWidth: '1100px',
+            maxWidth: '1032px',
           },
           '@screen xxxl': {
-            maxWidth: '1260px',
+            maxWidth: '1236px',
           },
           '@screen hd': {
             maxWidth: '1440px',

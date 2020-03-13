@@ -37,7 +37,7 @@ get_header();
 					wp_reset_query();
 					?>
 					
-					<div class="flex items-center justify-center p-32 w-full">
+					<div class="flex items-center justify-center p-10 lg:p-32 w-full">
 						<button class="btn btn-outline btn-outline-gray rounded-lg">Check out our Animal Research</button>
 					</div>
 					

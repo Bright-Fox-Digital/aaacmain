@@ -9,7 +9,7 @@
 
 get_header();
 ?>
-<div class="bg-bggray py-24">
+<div class="bg-bggray py-0 lg:py-24">
 	<div class="container mx-auto">
 		<div class="hero-animal py-10">
 		<?php

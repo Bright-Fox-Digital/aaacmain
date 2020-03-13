@@ -19,7 +19,7 @@ get_header();
 		<main id="main" class="site-main container mx-auto">
 		<h1 class="font-display text-4xl font-bold text-lightgray text-center mb-10"><?php the_title(); ?></h1>
 		<h2 class="font-display text-2xl text-lightgray text-center">Filter By</h1>
-		<div class="w-8/12 flex flex-row justify-between mx-auto relative mt-16">
+		<div class="w-full lg:w-8/12 flex flex-row justify-between mx-auto relative mt-16">
 			<div class="h-px bg-almostwhite absolute mt-6 w-11/12"></div>
 			<?php
 			$taxonomy = 'animal_type';
