@@ -76,8 +76,10 @@
 			        We'll see them out
 			      </h2>
 				  <p class="text-2xl font-regular font-display pt-8">Enter your ZIP Code to find a AAAC Wildlife Removal professional near you</p>
-				  <input type="search" class="mt-5 searchzip" placeholder="&#xF002;" />
-				  <button class="btn btn-yellow w-full mt-4 text-2xl">Search</button>
+				  <form action="<?php echo get_permalink( get_page_by_path( 'location-search' ) );?>">
+					  <input type="search" name="zipcode" class="mt-5 searchzip btn-outline btn-outline-lightgray" placeholder="&#xF002;" />
+					  <button type="submit" class="btn btn-yellow w-full mt-4 text-2xl">Search</button>
+				  </form>
 				</div>
 		    </div>
 		</section>
