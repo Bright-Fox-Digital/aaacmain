@@ -6,6 +6,10 @@
  *
  * @package AAAC
  */
+// ADD TO USE WP_INSERT_CATEGORY
+// if (file_exists (ABSPATH.'/wp-admin/includes/taxonomy.php')) {
+//         require_once (ABSPATH.'/wp-admin/includes/taxonomy.php'); 
+// }
 
 if ( ! function_exists( 'aaac_setup' ) ) :
 	/**
