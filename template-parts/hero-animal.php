@@ -1,4 +1,4 @@
-<div class="flex flex-col sm:flex-col xs:flex-col lg:flex-row p-4">
+<div class="flex flex-col sm:flex-col xs:flex-col lg:flex-row">
 	<div class="w-full lg:w-5/12 xl:w-5/12 md:w-full">
 		<h1 class="font-display text-4xl border-b-2 pb-2 border-yellow text-lightgray tracking-wide font-bold w-3/4"><?php echo get_the_title(); ?></h1>
 		<div class="pt-4 text-lightgray font-body font-light leading-tight"> <?php the_content(); ?></div>

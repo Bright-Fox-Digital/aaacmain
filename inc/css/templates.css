@@ -1,5 +1,5 @@
 .btn {
-  @apply p-3 font-display font-bold rounded-xl;
+  @apply p-3 font-display font-bold rounded-xl tracking-wider uppercase;
 }
 
 .btn-outline {
@@ -41,7 +41,7 @@ input[type=search]::placeholder{
 
 
 .menu-item {
-	@apply border-b-2 border-white pb-1 
+	@apply border-b-2 border-white
 }
 
 .menu-item.current-menu-item, .menu-item:hover {

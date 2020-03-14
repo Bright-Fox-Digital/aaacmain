@@ -24,9 +24,8 @@ if($_GET){
 		<div class="flex justify-between flex-col lg:flex-row">
 			<div id="primary" class="content-area lg:w-2/3 w-full px-5 lg:px-0">
 				<main id="main" class="site-main">
-				<?php if( have_rows('locations', 'options') ): ?>
 	
-				<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+				
 					<?php
 					
 					// args
@@ -45,14 +44,18 @@ if($_GET){
 					// query
 					$the_query = new WP_Query( $args );
 					
-					 if( $the_query->have_posts() ):
-					 while( $the_query->have_posts() ) : $the_query->the_post();
-						 get_template_part('template-parts/single', 'location');
-					 endwhile;
+					 if( $the_query->have_posts() ): ?>
+					 <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+						 <?php
+						 while( $the_query->have_posts() ) : $the_query->the_post();
+							 get_template_part('template-parts/single', 'location');
+						 endwhile; ?>
+						 </div>
+					 <?php
+					 else:
+					 	get_template_part('template-parts/search', 'empty');
 					 endif;
 					?>
-				</div>
-				<?php endif; ?>
 				</main><!-- #main -->
 			</div><!-- #primary -->
 			<div class="w-full lg:w-1/3 px-5 mt-5 lg:mt-0 lg:pl-8">

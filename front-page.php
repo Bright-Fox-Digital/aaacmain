@@ -38,7 +38,7 @@ get_header();
 					?>
 					
 					<div class="flex items-center justify-center p-10 lg:p-32 w-full">
-						<button class="btn btn-outline btn-outline-gray rounded-lg">Check out our Animal Research</button>
+						<button class="btn btn-outline btn-outline-gray border-4 px-5 rounded-lg text-xl">Check out our Animal Research</button>
 					</div>
 					
 				</div>

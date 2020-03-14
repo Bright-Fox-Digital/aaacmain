@@ -645,13 +645,13 @@ video {
 
 @media (min-width: 1680px) {
   .container {
-    max-width: 1236px;
+    max-width: 1260px;
   }
 }
 
 @media (min-width: 1920px) {
   .container {
-    max-width: 1440px;
+    max-width: 1260px;
   }
 }
 .btn {
@@ -659,6 +659,8 @@ video {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   border-radius: 1em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
 .btn-outline {
@@ -729,8 +731,7 @@ input[type=search]::placeholder{
 
 .menu-item {
   border-bottom-width: 2px;
-  border-color: #fff;
-  padding-bottom: 0.25rem
+  border-color: #fff
 }
 
 .menu-item.current-menu-item, .menu-item:hover {
