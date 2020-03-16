@@ -29,7 +29,9 @@
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php if(!is_front_page()) { //aaac_post_thumbnail(); } ?>
+	<?php if(!is_front_page()) { 
+		aaac_post_thumbnail(); 
+	} ?>
 
 	<div class="entry-content">
 		<?php
@@ -56,4 +58,4 @@
 	<footer class="entry-footer">
 		<?php aaac_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
-</article><!-- #post-<?php the_ID(); ?> -->
+</article>

@@ -51,3 +51,19 @@ input[type=search]::placeholder{
 .has-text-align-center {
 	@apply text-center
 }
+
+.fbc-items {
+	@apply italic font-light tracking-wide text-xs
+}
+
+.fbc-page .fbc-wrap .fbc-items li:first-child {
+	@apply p-0
+}
+
+.fbc-page .fbc-wrap .fbc-items li{
+	@apply px-2
+}
+
+.fbc-items i {
+	@apply hidden
+}
