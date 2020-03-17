@@ -25,19 +25,19 @@
 	<a class="skip-link sr-only" href="#content"><?php esc_html_e( 'Skip to content', 'aaac' ); ?></a>
 
 	<header id="masthead" class="site-header font-sans text-lightgray pb-8 pt-10">
-		<div class="container mx-auto flex flex-row justify-between items-center">
+		<div class="container mx-auto flex lg:flex-row justify-between ">
 			<div class="site-branding flex flex-row">
 				<?php 
 					$custom_logo_id = get_theme_mod( 'custom_logo' );
 					$image = wp_get_attachment_image_src( $custom_logo_id , 'full' ); ?>
-					<img class="h-50 w-100" src="<?php echo $image[0]; ?>" />
-				<div class="phone flex flex-row items-center ml-16 lg:flex hidden">
+					<img class="w-100 object-contain" src="<?php echo $image[0]; ?>" />
+				<div class="phone flex flex-row items-center ml-16 ">
 					<span class="icon is-large -mt-4 mr-1">
 					  <i class="fas fa-phone-alt text-2xl fa-2x"></i>
 					</span>
-					<div class="is-flex">
-						<div class="is-block mx-1">
-							<h1 class="font-display text-4xl font-bold tracking-wide"><?php the_field('phone_number', 'option'); ?></h1>
+					<div class="flex">
+						<div class="mx-1">
+							<h1 class="font-display text-base sm:text-4xl md:text-lg xl:text-4xl font-bold tracking-wide"><?php the_field('phone_number', 'option'); ?></h1>
 							<p class="font-display italic text-lg tracking-wide">No Cats or Dogs</p>
 						</div>
 					</div>
@@ -52,7 +52,7 @@
 				wp_nav_menu( array(
 					'theme_location' => 'menu-1',
 					'menu_id'        => 'primary-menu',
-					'items_wrap'      => '<ul id="%1$s" class="flex flex-row justify-around hidden lg:flex flex-grow font-light items-center font-display text-lg tracking-wider">%3$s</ul>',
+					'items_wrap'      => '<ul id="%1$s" class="flex flex-row justify-around hidden xl:flex flex-grow font-light items-center font-display text-lg tracking-wider">%3$s</ul>',
 				) );
 				?>
 				<button class="btn btn-yellow lg:flex hidden px-6 uppercase tracking-widest">Get A Quote</button>
