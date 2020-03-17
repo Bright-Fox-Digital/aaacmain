@@ -3,7 +3,7 @@
 		Our Customers Love Us
 	</div>
 	<div class="container flex lg:flex-row flex-col mx-auto justify-between items-center">
-		<img class="lg:self-end order-last lg:order-first w-auto" src="/wp-content/uploads/2020/02/testimonial_image-1.png" />
+		<img class="lg:self-end order-last lg:order-first w-auto" src="/wp-content/uploads/2020/03/testimonial_image.png" />
 		<div class="w-full grid grid-cols-1 lg:grid-cols-2 gap-8 lg:ml-10 pb-10">
 			<?php 
 				$args = array(
