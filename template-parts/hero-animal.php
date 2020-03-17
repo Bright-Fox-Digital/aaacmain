@@ -2,12 +2,12 @@
 	<div class="w-full lg:w-5/12 xl:w-5/12 md:w-full self-center flex flex-col">
 		<h1 class="font-display text-4xl border-b-4 pb-2 border-yellow text-lightgray tracking-wide font-bold w-3/5"><?php echo get_the_title(); ?></h1>
 		<div class="pt-4 text-lightgray font-body font-light leading-tight"> <?php the_content(); ?></div>
-		<div class="flex flex-wrap justify-between mt-6">
+		<div class="flex flex-wrap mt-6">
 		<?php
 			$tags = get_the_tags();
 			if($tags){
 				foreach($tags as $tag){ ?>
-					<div class="p-1 px-2 bg-yellow-lighter rounded-full font-body text-sm text-midgray mb-4"><i class="fas fa-tools mr-2"></i><?php echo $tag->name; ?></div>
+					<div class="p-1 px-2 mr-2 bg-yellow-lighter rounded-full font-body text-sm text-midgray mb-4"><i class="fas fa-tools mr-2"></i><?php echo $tag->name; ?></div>
 				<?php
 				}
 			}
