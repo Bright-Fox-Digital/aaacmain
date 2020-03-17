@@ -25,7 +25,7 @@
 	<a class="skip-link sr-only" href="#content"><?php esc_html_e( 'Skip to content', 'aaac' ); ?></a>
 
 	<header id="masthead" class="site-header font-sans text-lightgray pb-8 pt-10">
-		<div class="container mx-auto flex lg:flex-row justify-between ">
+		<div class="lg:container px-16 mx-auto flex lg:flex-row justify-between ">
 			<div class="site-branding flex flex-row">
 				<?php 
 					$custom_logo_id = get_theme_mod( 'custom_logo' );

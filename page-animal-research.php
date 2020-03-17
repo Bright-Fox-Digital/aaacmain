@@ -24,7 +24,7 @@ get_header();
 			<?php
 			$taxonomy = 'animal_type';
 			$taxonomy_terms = get_terms( $taxonomy, array(
-			    'hide_empty' => 0,
+			    'hide_empty' => 1,
 			) );
 			foreach($taxonomy_terms as $term){ ?>
 				<div class="flex items-center flex-col z-10 animal-filter" data-id="<?php echo $term->term_id; ?>">
