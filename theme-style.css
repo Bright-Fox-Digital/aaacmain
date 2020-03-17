@@ -1,8 +1,10 @@
+/* purgecss start ignore */
 @import "./header.css";
 
 @import "node_modules/tailwindcss/base.css";
 
 @import "node_modules/tailwindcss/components.css";
+/* purgecss end ignore */
 
 @import "inc/css/templates.css";
 
