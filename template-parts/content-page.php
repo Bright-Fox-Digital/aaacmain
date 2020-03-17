@@ -9,10 +9,10 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class('py-10'); ?>>
 	<?php if(!is_front_page()){ ?>
 	<header class="entry-header">
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		<h1 class="font-display text-4xl font-bold text-lightgray text-center mb-10"><?php the_title(); ?></h1>
 	</header><!-- .entry-header -->
 	<?php } ?>
 	

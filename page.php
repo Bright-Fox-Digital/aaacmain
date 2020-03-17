@@ -17,7 +17,6 @@ get_header();
 <div class="container mx-auto flex">
 	<div id="primary" class="w-3/4">
 		<main id="main" class="site-main">
-
 		<?php
 		while ( have_posts() ) :
 			the_post();
@@ -34,9 +33,9 @@ get_header();
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-	<div class="w-1/4">
+	<div class="">
 		<?php
-		get_sidebar();
+		//get_sidebar();
 		?>
 	</div>
 </div>

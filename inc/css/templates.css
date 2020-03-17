@@ -1,3 +1,79 @@
+.entry-content {
+	@apply flex flex-col
+}
+
+.entry-content h1 {
+	@apply font-display font-bold text-4xl text-lightgray leading-10 pt-3
+}
+
+.entry-content h2 {
+	@apply font-display font-bold text-2xl text-lightgray leading-10 pt-3
+}
+
+.entry-content p {
+	@apply font-body text-darkgray py-3 font-light clear-both
+}
+
+.entry-content ol {
+	@apply list-decimal ml-10
+}
+
+.entry-content ol li {
+	@apply mb-3
+}
+
+.entry-content img {
+	@apply object-contain
+}
+
+.entry-content .aligncenter {
+	@apply object-center self-center mx-auto
+}
+
+.entry-content .alignleft {
+	@apply float-left mr-4 self-start
+}
+
+.entry-content .alignright {
+	@apply float-right ml-4 self-end
+}
+
+.entry-content figcaption {
+	@apply shadow text-gray-500 p-2 text-sm
+}
+
+.entry-content table {
+	@apply table-auto
+}
+
+.entry-content th {
+	@apply text-left
+}
+
+.entry-content th, .entry-content td {
+	@apply px-4 py-2
+}
+
+.entry-content td {
+	@apply border
+}
+
+.entry-content tr:nth-child(odd){
+	@apply bg-gray-100
+}
+
+.entry-content dt {
+	@apply font-bold
+}
+
+.entry-content dd {
+	@apply ml-10
+}
+
+.entry-content ul li ul {
+	@apply ml-10
+}
+
 .btn {
   @apply p-3 font-display font-bold rounded-xl tracking-wider uppercase;
 }
