@@ -4,3 +4,4 @@ inc/css/bulma.min.css
 node_modules
 header.css
 header.css
+template-parts/zipsearch.php
