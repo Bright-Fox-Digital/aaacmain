@@ -838,8 +838,7 @@ input[type=search]::placeholder{
 }
 
 .menu-item {
-  border-bottom-width: 2px;
-  border-color: #fff
+  border-bottom-width: 4px;
   border-color: #F5F5F5
 }
 
