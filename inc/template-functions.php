@@ -222,7 +222,7 @@ if( function_exists('acf_add_options_page') ) {
 
 function atg_menu_classes($classes, $item, $args) {
   if($args->theme_location == 'menu-1') {
-    $classes[] = 'mr-6 uppercase';
+    $classes[] = 'ml-6 uppercase';
   }
   return $classes;
 }

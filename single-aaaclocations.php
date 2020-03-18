@@ -17,26 +17,25 @@ get_header();
 		<div class="flex justify-between flex-col lg:flex-row">
 			<div id="primary" class="content-area lg:w-2/3 w-full px-5 lg:px-0">
 				<main id="main" class="site-main">
-				<?php if( have_rows('locations', 'options') ): ?>
-	
-				<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-					<?php while( have_rows('locations', 'options') ): the_row(); 
-						$state = get_sub_field('state_name');
-						if(strtolower($state) == strtolower(get_the_title())){
-							// 
-							if(have_rows('cities')){
-								while(have_rows('cities')){
-									the_row();
+				<?php 
+							$locationArgs = array(
+								'post_type' => 'aaaclocations',
+								'post_per_page' => '-1',
+								'category_name' => strtolower(get_the_title()),
+								'orderby' => 'title',
+								'order' => 'asc'
+							);
+							$locations = new WP_Query($locationArgs);
+							if($locations->have_posts()){ ?>
+								<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+								<?php
+								while($locations->have_posts()){
+									$locations->the_post();
 									get_template_part('template-parts/location', 'card');
-								}
-							}
-							
-						} 
-					?>
-					
-					<?php endwhile; ?>
-				</div>
-				<?php endif; ?>
+								} ?>
+								</div>
+					<?php 	} ?>
+				
 				</main><!-- #main -->
 			</div><!-- #primary -->
 			<div class="w-full lg:w-1/3 px-5 mt-5 lg:mt-0 lg:pl-8">

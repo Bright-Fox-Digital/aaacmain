@@ -840,6 +840,7 @@ input[type=search]::placeholder{
 .menu-item {
   border-bottom-width: 2px;
   border-color: #fff
+  border-color: #F5F5F5
 }
 
 .menu-item.current-menu-item, .menu-item:hover {
@@ -95793,3 +95794,6 @@ input[type=search]::placeholder{
     transition-duration: 1000ms
   }
 }
+/* purgecss start ignore */
+
+/* purgecss end ignore */

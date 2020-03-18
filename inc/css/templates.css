@@ -117,7 +117,7 @@ input[type=search]::placeholder{
 
 
 .menu-item {
-	@apply border-b-2 border-white
+	@apply border-b-4 border-headinggray
 }
 
 .menu-item.current-menu-item, .menu-item:hover {
