@@ -12,7 +12,7 @@
 		</div>
 		
 		<h1 class="font-display text-2xl font-bold mb-4">
-			Service Area
+			Service Areas
 		</h1>
 		
 	</div>
